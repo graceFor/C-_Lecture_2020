@@ -1,0 +1,47 @@
+// assign_fun.c
+#include <stdio.h>
+
+void assign(int *x, int y)
+{
+    *x = y;
+}
+int main()
+{
+    int a = 0, b = 999;
+    assign(&a, b);
+    printf("%d\n", a);
+    return 0;
+}
+
+//pswap.c
+#include <stdio.h>
+
+void pswap(int *a, int *b)
+{
+    int temp;
+    temp = *a;
+    *a = *b;
+    *b = temp;
+}
+int main()
+{
+    int one, two;
+    printf("one과 two의 값을 입력하시오: ");
+    scanf("%d %d", &one, &two);
+    pswap(&one, &two);
+    printf("%d %d", one, two);
+}
+
+//포인터를 배열처럼 사용하기
+#include <stdio.h>
+
+int main()
+{
+    char str[6] = "hello";
+    char *p;
+
+    p = str;
+
+    printf("%s\n", str);
+    printf("%s\n", p);
+}
