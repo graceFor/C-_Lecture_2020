@@ -1,3 +1,4 @@
+// 1주차
 // assign_fun.c
 #include <stdio.h>
 
@@ -81,4 +82,52 @@ int main()
     printf("%c\n", *str);
     printf("%s\n", str);
     return 0;
+}
+
+//str_ptr2.c => world만 출력되도록 하기
+#include <stdio.h>
+
+int main()
+{
+    char *str = "Hello world";
+
+    str += 6;
+
+    printf("%s\n", str);
+    return 0;
+}
+
+// string copy program
+#include <stdio.h>
+void stringcopy(char *dest, char *src)
+{
+
+    for (src; *src; src++, dest++)
+    {
+        *dest = *src;
+    }
+    *dest = 0;
+}
+int main()
+{
+    char array1[20];
+    char array2[20];
+    scanf("%s", array1);
+    stringcopy(array2, array1);
+    printf("%s\n", array2);
+    return 0;
+}
+
+// ref.cpp
+#include <stdio.h>
+
+void fun(int &b)
+{
+    b = 99;
+}
+int main()
+{
+    int a = 1;
+    fun(a);
+    printf("%d\n", a);
 }
