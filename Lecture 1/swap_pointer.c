@@ -5,8 +5,8 @@
 void swap(int *a, int *b)
 {
     int tmp;
-    tmp = *a;
-    *a = *b;
+    tmp = *a; // *a는 변수 x
+    *a = *b;  // *b는 변수 y
     *b = tmp;
 }
 
