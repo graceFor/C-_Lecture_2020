@@ -15,5 +15,5 @@ int main()
     printf("one과 two의 값을 입력하시오: ");
     scanf("%d %d", &one, &two);
     pswap(&one, &two);
-    scanf("%d %d", &one, &two);
+    printf("%d %d", one, two);
 }
