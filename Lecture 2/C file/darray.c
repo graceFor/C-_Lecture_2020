@@ -1,3 +1,4 @@
+//darray.c => 주어진 배열을 동적 배열로 바꾸기
 
 #include <stdio.h>
 #include <stdlib.h>
