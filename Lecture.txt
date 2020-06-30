@@ -169,3 +169,29 @@ int main()
     printf("%d %d\n", a, b);
 }
 
+// error.c
+#include <stdlib.h>
+#include <stdio.h>
+
+int main()
+{
+    double *pDegree = NULL; // 포인터 초기화
+    pDegree = (double *)malloc(sizeof(double));
+    *pDegree = 12.345;
+    printf("%lf\n", *pDegree);
+}
+
+// strcpy.c
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main()
+{
+    char str1[] = "Hello World";
+    char *s;
+    s = str1;
+    printf("%s\n", s);
+    strcpy(str1, "Howdy!");
+    printf("%s\n", s);
+}
