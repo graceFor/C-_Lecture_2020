@@ -148,3 +148,4 @@ int main()
     int &a = makeInt(3);
     printf("%d\n", a);
 }
+
