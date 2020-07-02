@@ -1,4 +1,4 @@
-//stack을 local 변수를 이용해서 만들기
+//stack을 local 변수를 이용해서 만들기 => print_stack
 
 #include <stdio.h>
 #include <stdlib.h>
