@@ -1,4 +1,4 @@
-// 1주차
+// Day_1
 // assign_fun.c
 #include <stdio.h>
 
@@ -168,7 +168,7 @@ int main()
     rswap(a, b);
     printf("%d %d\n", a, b);
 }
-
+// Day_2
 // error.c
 #include <stdlib.h>
 #include <stdio.h>
@@ -308,4 +308,50 @@ int main()
     strcat(p, q);
     printf("%s\n", p);
     return 0;
+}
+
+// Day_3
+
+// alist.c
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main()
+{
+    int start = 2;
+    int score[8] = {55, 22, 11, 66, 33, 88, 44, 77};
+    int next[8] = {3, 4, 1, 7, 6, -1, 0, 5};
+
+    for (int i = start; i >= 0; i = next[i])
+    {
+        printf("%d\n", score[i]);
+    }
+    return 0;
+}
+
+//list1.c
+
+#include <stdio.h>
+
+struct item
+{
+    int score;
+    struct item *next;
+};
+
+int main()
+{
+    struct item A, B;
+    struct item *first;
+    first = &A;
+    A.score = 1;
+    A.next = &B;
+    B.score = 2;
+    B.next = NULL;
+    printf("%d\n", first->score);       //A의 score -> 1 출력
+    printf("%d\n", A.score);            //A의 score -> 1 출력
+    printf("%d\n", first->next->score); //B의 score -> 2 출력
+    printf("%d\n", B.score);            //B의 score -> 2 출력
+    printf("%d\n", (*(A.next)).score);  //B의 score -> 2 출력
 }
