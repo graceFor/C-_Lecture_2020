@@ -22,6 +22,5 @@ int main()
     printf("%d\n", first->next->score); //B의 score -> 2 출력
     printf("%d\n", B.score);            //B의 score -> 2 출력
     printf("%d\n", (*(A.next)).score);  //B의 score -> 2 출력
-
     return 0;
 }
