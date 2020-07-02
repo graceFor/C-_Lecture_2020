@@ -38,13 +38,11 @@ int main()
     insert(2);
     insert(3);
 
-    printf("%d\n", top()); // 3
+    printf("Stack top is %d\n", top()); // 3
     pop();
-    printf("%d\n", top()); // 2
+    printf("Stack top is %d\n", top()); // 2
     pop();
-    printf("%d\n", top()); // 1
-    pop();
-    printf("%d\n", top());
+    printf("Stack top is %d\n", top()); // 1
 
     return 0;
 }
