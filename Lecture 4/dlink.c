@@ -1,3 +1,5 @@
+//dlink.c => insert
+
 #include <stdio.h>
 #include <stdlib.h>
 
