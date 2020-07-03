@@ -36,4 +36,6 @@ int main()
     draw_graph(sin, 0, 360);
     printf("cos 함수 그래프입니다.\n");
     draw_graph(cos, 0, 360);
+
+    return 0;
 }
