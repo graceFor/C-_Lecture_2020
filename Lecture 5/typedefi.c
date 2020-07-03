@@ -10,6 +10,8 @@ int main()
     DBLFUN *fun;
 
     fun = ff();
+    printf("A %p\n", fun);
+    printf("B %p\n", ff());
     printf("%d\n", fun(2, 3));
 
     return 0;
