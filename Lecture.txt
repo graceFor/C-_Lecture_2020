@@ -664,6 +664,7 @@ int main()
         putchar('*');
         putchar('\n');
     }
+    return 0;
 }
 
 // function_pointer에 함수 assign하기
@@ -682,4 +683,7 @@ int main()
     print(123);
     print = simple_print;
     print(125);
+
+    return 0;
 }
+

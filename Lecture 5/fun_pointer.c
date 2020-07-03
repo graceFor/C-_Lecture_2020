@@ -15,4 +15,6 @@ int main()
     print(123);
     print = simple_print;
     print(125);
+
+    return 0;
 }
