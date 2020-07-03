@@ -1,3 +1,4 @@
+// function_pointer에 함수 assign하기
 
 #include <stdio.h>
 
