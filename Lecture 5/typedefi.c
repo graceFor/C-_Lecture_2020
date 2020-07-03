@@ -1,3 +1,4 @@
+// typedef의 이용
 
 #include <stdio.h>
 

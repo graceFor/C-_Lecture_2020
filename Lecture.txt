@@ -740,4 +740,26 @@ int main()
     draw_graph(sin, 0, 360);
     printf("cos 함수 그래프입니다.\n");
     draw_graph(cos, 0, 360);
+
+    return 0;
 }
+
+// typedef의 이용
+#include <stdio.h>
+
+typedef int DBLFUN(int, int);
+
+int main()
+{
+    DBLFUN *ff();
+    DBLFUN *fun;
+
+    fun = ff();
+    printf("%d\n", fun(2, 3));
+
+    return 0;
+}
+
+int plus(int x, int y) { return x + y; }
+DBLFUN *ff() { return &plus; }
+
