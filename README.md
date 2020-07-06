@@ -5,3 +5,4 @@
 - [x] Lecture 3 (Linked List)
 - [x] Lecture 4 (Dynamic Linked List)
 - [x] Lecture 5 (Fuction Pointer)
+- [x] Lecture 7 (Abstraction)
