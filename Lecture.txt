@@ -786,3 +786,5 @@ int main()
 
     return 0;
 }
+
+// Day_5 (7장_추상화)
