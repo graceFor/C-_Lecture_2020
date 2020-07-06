@@ -1,4 +1,4 @@
-// C언어로 객체 만들기 1
+// C언어로 객체 만들기 2
 
 #include <stdio.h>
 typedef struct
