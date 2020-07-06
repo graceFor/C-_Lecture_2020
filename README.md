@@ -7,3 +7,4 @@
 - [x] Lecture 5 (Fuction Pointer)
 - [x] Lecture 7 (Abstraction)
 - [x] Lecture 8 (C++ Basics)
+- [x] Lecture 9 (Class Method)
