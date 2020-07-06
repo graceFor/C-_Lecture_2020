@@ -13,6 +13,7 @@ float rect_area(struct shape *s)
 {
     return s->width * s->height;
 }
+
 float tri_area(struct shape *s)
 {
     return s->width * s->height * 0.5;
