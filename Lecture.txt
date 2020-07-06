@@ -989,3 +989,48 @@ int main()
     free(str);
     return 0;
 }
+
+// Hello World 출력
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+
+int main()
+{
+    int number;
+    cout << "정수 1개를 입력하시오.";
+    cin >> number;
+    printf("Hello world\n");
+    cout << number << "\n";
+    return 0;
+}
+
+//ci and cout
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+
+int main()
+{
+    int num;
+    char c;
+    double ratio;
+    char s[20];
+    cin >> num;
+    cin >> c;
+    cin >> ratio >> s;
+
+    cout << num << endl;
+    cout << c << endl;
+    cout << ratio << s;
+
+    if (cin >> num)
+    {
+        cout << "데이터 입력됨" << endl;
+    }
+    else
+    {
+        cout << "더이상 입력이 없습니다." << endl;
+    }
+    return 0;
+}
