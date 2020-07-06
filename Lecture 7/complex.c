@@ -9,7 +9,7 @@ typedef struct
 
 void print_c(Complex a)
 {
-    printf("%2.1f+%2.1f i\n", a.re, a.im);
+    printf("%2.1f+%2.1fi\n", a.re, a.im);
 }
 
 int main()
