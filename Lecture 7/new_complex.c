@@ -1,4 +1,4 @@
-// C언어로 객체 만들기 2
+// C언어로 객체 만들기 4
 
 #include <stdio.h>
 #include <stdlib.h>
