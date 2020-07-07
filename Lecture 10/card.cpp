@@ -1,3 +1,4 @@
+// 클래스 변수
 
 #include <iostream>
 #include <stdio.h>
@@ -11,6 +12,7 @@ public:
     Card()
     {
         num_instance++;
+        m_data = 0;
     }
     void show()
     {
