@@ -1,6 +1,5 @@
 # C++\_Lecture_2020
 
-<hr/>
 - [x] Lecture 1 (포인터)
 - [x] Lecture 2 (Dynamic Memory)
 - [x] Lecture 3 (Linked List)
