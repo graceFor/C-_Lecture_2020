@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-struct Bird
+class Bird
 {
 public:
     string name;
