@@ -8,3 +8,4 @@
 - [x] Lecture 7 (Abstraction)
 - [x] Lecture 8 (C++ Basics)
 - [x] Lecture 9 (Class Method)
+- [x] Lecture 10 (Instantiation and Initialization)
