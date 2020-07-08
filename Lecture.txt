@@ -1603,3 +1603,76 @@ void DogSchool::insert(Dog *d)
     d->setSchool(this);
 }
 
+// girl.h
+
+#ifndef __GIRL_H
+#define __GIRL_H
+#include <string>
+#include <iostream>
+using namespace std;
+
+class Boy;
+
+class Girl
+{
+public:
+    string m_gname;
+    Boy *m_boyfriend;
+    Girl(string gname) : m_gname(gname), m_boyfriend(0) {}
+    string get_gname();
+    void hello();
+    void SetBF(Boy *ds);
+};
+
+#endif
+
+// boy.h
+
+#ifndef __BOY_H
+#define __BOY_H
+#include <string>
+#include <iostream>
+using namespace std;
+
+class Girl;
+
+class Boy
+{
+public:
+    string m_bname;
+    Girl *m_girlfriend;
+    Boy(string bname) : m_bname(bname), m_girlfriend(0) {}
+    string get_bname();
+    void hello();
+    void SetGF(Girl *ds);
+};
+
+#endif
+
+#include "girl.h"
+#include "boy.h"
+#include <iostream>
+using namespace std;
+
+string Girl::get_gname() { return m_gname; }
+void Girl::hello()
+{
+    cout << "나는 " << m_gname << "입니다. \n";
+    cout << "내 남자 친구는 " << m_boyfriend->get_bname()
+         << "입니다. \n";
+}
+void Girl::SetBF(Boy *ds) { m_boyfriend = ds; }
+
+#include "girl.h"
+#include "boy.h"
+#include <iostream>
+using namespace std;
+
+string Boy::get_bname() { return m_bname; }
+void Boy::hello()
+{
+    cout << "나는 " << m_bname << "입니다. \n";
+    cout << "내 여자 친구는 " << m_girlfriend->get_gname()
+         << "입니다. \n";
+}
+void Boy::SetGF(Girl *ds) { m_girlfriend = ds; }
