@@ -1,3 +1,5 @@
+//DogSchool.h
+
 #ifndef __DOGSCHOOL_H
 #define __DOGSCHOOL_H
 #include <string>

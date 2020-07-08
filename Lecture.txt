@@ -1530,3 +1530,76 @@ int main()
     return 0;
 }
 
+// Dog.h
+
+#ifndef __DOG_H
+#define __DOG_H
+#include <string>
+using namespace std;
+class DogSchool;
+
+class Dog
+{
+public:
+    string m_name;
+    DogSchool *m_school;
+    Dog(string n) : m_name(n), m_school(0) {}
+    void bark();
+    void setSchool(DogSchool *ds);
+};
+#endif
+
+//DogSchool.h
+
+#ifndef __DOGSCHOOL_H
+#define __DOGSCHOOL_H
+#include <string>
+using namespace std;
+
+class Dog;
+class DogSchool
+{
+public:
+    int numDogs;
+    string m_shool_name;
+    Dog *allDogs[100];
+    DogSchool(string sname) : m_shool_name(sname), numDogs(0) {}
+    string get_name();
+    void insert(Dog *d);
+};
+
+#endif
+
+// Dog.cpp
+
+#include <iostream>
+#include "Dog.h"
+#include "DogSchool.h"
+
+void Dog::bark()
+{
+    cout << "멍멍." << m_name << endl;
+    if (m_school)
+    {
+        cout << "나는 " << m_school->get_name() << "에 다닙니다.\n";
+    }
+}
+void Dog::setSchool(DogSchool *ds)
+{
+    {
+        m_school = ds;
+    }
+}
+
+// DogSchool.cpp
+
+#include "Dog.h"
+#include "DogSchool.h"
+
+string DogSchool::get_name() { return m_shool_name; }
+void DogSchool::insert(Dog *d)
+{
+    allDogs[numDogs++] = d;
+    d->setSchool(this);
+}
+

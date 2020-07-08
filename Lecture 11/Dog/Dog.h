@@ -1,3 +1,5 @@
+// Dog.h
+
 #ifndef __DOG_H
 #define __DOG_H
 #include <string>
