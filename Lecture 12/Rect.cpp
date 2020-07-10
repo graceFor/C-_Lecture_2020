@@ -12,11 +12,7 @@ public:
         width = 1;
         height = 1;
     }
-    Rect(int r)
-    {
-        width = r;
-        height = r;
-    }
+    Rect(int r) : width(r), height(r) {} //base init방법
     Rect(int w, int h)
     {
         width = w;
