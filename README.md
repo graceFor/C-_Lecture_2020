@@ -1,4 +1,4 @@
-# C++\_Lecture_2020
+# C++ Lecture_2020
 
 - [x] [Lecture 1](https://github.com/graceFor/C-_Lecture_2020/tree/master/Lecture%201) (Pointer)
 - [x] [Lecture 2](https://github.com/graceFor/C-_Lecture_2020/tree/master/Lecture%202) (Dynamic Memory)
