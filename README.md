@@ -9,6 +9,8 @@
 - [x] [Lecture 8](https://github.com/graceFor/C-_Lecture_2020/tree/master/Lecture%209) (C++ Basics)
 - [x] [Lecture 9](https://github.com/graceFor/C-_Lecture_2020/tree/master/Lecture%209) (Class Method)
 - [x] [Lecture 10](https://github.com/graceFor/C-_Lecture_2020/tree/master/Lecture%2010) (Instantiation and Initialization)
-- [x] [Lecture 11](https://github.com/graceFor/C-_Lecture_2020/tree/master/Lecture%2011) (Information hiding-정보은닉)
+- [x] [Lecture 11](https://github.com/graceFor/C-_Lecture_2020/tree/master/Lecture%2011) (Information hiding - 정보은닉)
 
 - [x] [Lecture 14](https://github.com/graceFor/C-_Lecture_2020/tree/master/Lecture%2014) (Eight Queen)
+
+- [x] [Lecture 15](https://github.com/graceFor/C-_Lecture_2020/tree/master/Lecture%2015) (Inheritance - 상속)
