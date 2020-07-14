@@ -1,3 +1,5 @@
+// padak_2.cpp => 포함을 이용해서
+
 #include <iostream>
 using namespace std;
 
