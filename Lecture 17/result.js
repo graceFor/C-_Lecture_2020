@@ -1,3 +1,5 @@
+//java_script
+
 var x = "12";
 var y = 12;
 var z1 = 3;
