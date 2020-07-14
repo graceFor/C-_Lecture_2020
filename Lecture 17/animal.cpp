@@ -1,3 +1,5 @@
+//subsititution => animal, dog
+
 #include <iostream>
 using namespace std;
 
