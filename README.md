@@ -14,3 +14,5 @@
 - [x] [Lecture 14](https://github.com/graceFor/C-_Lecture_2020/tree/master/Lecture%2014) (Eight Queen)
 
 - [x] [Lecture 15](https://github.com/graceFor/C-_Lecture_2020/tree/master/Lecture%2015) (Inheritance - 상속)
+
+- [x] [Lecture 17]() (Subsitution_Polymoorphism_DynamicBinding)
