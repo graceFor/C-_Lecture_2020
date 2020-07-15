@@ -21,7 +21,7 @@ public:
 class Padak
 {
 public:
-    Padak(){pd = new KyoChon()};
+    Padak() { pd = new KyoChon(); }
     void make_chicken()
     {
         pd->make_chicken();
