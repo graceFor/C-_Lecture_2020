@@ -20,7 +20,8 @@ const INT add(INT a, INT b)
     // 생성자를 이용하여 덧셈을 한다.
     return temp; // temp를 반환한다.
 }
-L int main()
+
+int main()
 {
     INT x(3), y(4), z;
     z = add(x, y);
