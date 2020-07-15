@@ -16,13 +16,11 @@ private:
 };
 const INT add(INT a, INT b)
 {
-    INT
-        temp(a.getValue(), b.getValue());
+    INT temp(a.getValue(), b.getValue());
     // 생성자를 이용하여 덧셈을 한다.
     return temp; // temp를 반환한다.
 }
-
-int main()
+L int main()
 {
     INT x(3), y(4), z;
     z = add(x, y);
