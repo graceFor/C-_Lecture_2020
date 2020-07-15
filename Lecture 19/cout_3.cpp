@@ -2,6 +2,7 @@
 // 여러개 출력하기
 
 #include <stdio.h>
+
 class COUT
 {
 public:
