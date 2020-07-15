@@ -1,4 +1,4 @@
-//overloading
+//overloading => c언어 형태
 
 #include <iostream>
 #include <stdio.h>
