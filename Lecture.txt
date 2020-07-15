@@ -2792,3 +2792,23 @@ int main()
     a[3] = 1;          // 현재는 불가능 하지만 배열은 시작주소를 포함하므로
                        // & 사용으로 Okay. l-value로 사용 가능
 }
+
+// cout.cpp
+
+#include <stdio.h>
+#include <iostream>
+
+class COUT
+{
+public:
+    void operator<<(int i)
+    {
+        printf("%d\n", i);
+    }
+};
+int main()
+{
+    COUT cout;
+    cout << 1;
+    return 0;
+}
