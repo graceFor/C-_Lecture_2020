@@ -1,4 +1,4 @@
-//  PrintLogger를 변경하여 Logger 클래스를 단일 상속 받은 구조로 만들고 Printer를 객체(instance)로 포함하도록 구조를 바꾼다.(object adapter)
+// Logger를 변경하여 Logger 클래스를 단일 상속 받은 구조로 만들고 Printer를 객체(instance)로 포함하도록 구조를 바꾼다.(object adapter)
 
 #include <iostream>
 #include <string>
