@@ -1,5 +1,4 @@
-
-// Polymorphism: virtual 키워드 없으면 shadowing 된다.
+// Polymorphism: virtual 키워드 있으면 된다.
 
 #include <iostream>
 using namespace std;
