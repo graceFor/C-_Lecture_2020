@@ -1,3 +1,5 @@
+// Magnitude => INT overriding
+
 #include <iostream>
 using namespace std;
 
@@ -6,27 +8,27 @@ class Magnitude
 public:
     virtual int operator<=(Magnitude &x)
     {
-        cout << "M <= \n";
+        cout << "M <= ";
         return (*this < x) || (*this == x);
     }
     virtual int operator>=(Magnitude &x)
     {
-        cout << "M >= \n";
+        cout << "M >= ";
         return !(*this < x);
     }
     virtual int operator<(Magnitude &x)
     {
-        cout << "M < \n";
+        cout << "M < ";
         return (*this <= x) && !(*this == x);
     }
     virtual int operator>(Magnitude &x)
     {
-        cout << "M > \n";
+        cout << "M > ";
         return (x < *this);
     }
     virtual int operator==(Magnitude &x)
     {
-        cout << "M == \n";
+        cout << "M == ";
         return (*this == x);
     }
 };
@@ -38,12 +40,12 @@ public:
     INT(int a) : data(a) {}
     int operator==(Magnitude &x)
     {
-        cout << "Iop == \n";
+        cout << "Iop == ";
         return ((INT *)(&x))->data == this->data;
     }
     int operator<(Magnitude &x)
     {
-        cout << "Iop < \n";
+        cout << "Iop < ";
         return ((INT *)(&x))->data > this->data;
     }
 };
