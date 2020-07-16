@@ -65,4 +65,6 @@ int main()
         cout << "b is larger\n";
     if (a < b)
         cout << "a is smaler\n";
+
+    return 0;
 }
