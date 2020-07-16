@@ -20,3 +20,5 @@
 - [x] [Lecture 18](https://github.com/graceFor/C-_Lecture_2020/tree/master/Lecture%2018) (Inheritance && Composition - 상속과 포함)
 
 - [x] [Lecture 19](https://github.com/graceFor/C-_Lecture_2020/tree/master/Lecture%2019) (Overloading)
+
+- [x] [Lecture 20](https://github.com/graceFor/C-_Lecture_2020/tree/master/Lecture%2020) (Overriding)
