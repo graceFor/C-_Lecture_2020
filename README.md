@@ -22,3 +22,5 @@
 - [x] [Lecture 19](https://github.com/graceFor/C-_Lecture_2020/tree/master/Lecture%2019) (Overloading)
 
 - [x] [Lecture 20](https://github.com/graceFor/C-_Lecture_2020/tree/master/Lecture%2020) (Overriding)
+
+- [x] [Lecture 20](https://github.com/graceFor/C-_Lecture_2020/tree/master/Lecture%2020) (Multiple inheritance - 다중상속)
