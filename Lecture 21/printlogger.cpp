@@ -22,6 +22,7 @@ public:
 class PrintLogger : public Logger
 { // Printer를 상속 받지 않는다.
 public:
+    PrintLogger() { m_str = new Printer(); }
     void log(string s)
     {
         m_str->print(s);
