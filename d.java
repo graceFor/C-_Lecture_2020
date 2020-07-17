@@ -18,7 +18,7 @@ public abstract class NumberGen {
 
     public void notifyReaders() {
         for(int i=0; i<readers.size();i++){
-            readers.
+            readers.update
         }
     }
 
