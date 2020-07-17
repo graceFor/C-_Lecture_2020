@@ -1,4 +1,4 @@
-//inner.cpp
+//inner.cpp => friend
 
 #include <iostream>
 using namespace std;
