@@ -11,6 +11,7 @@ public:
 private:
     int m_data;
     Link *next;
+    friend class Stack;
 };
 
 class Stack
