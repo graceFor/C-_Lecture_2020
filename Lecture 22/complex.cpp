@@ -1,4 +1,4 @@
-//complex.cpp
+//complex.cpp => friend
 
 #include <iostream>
 using namespace std;
