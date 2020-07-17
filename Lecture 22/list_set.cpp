@@ -1,3 +1,5 @@
+// list_set => privarte로 상속받기
+
 #include <iostream>
 using namespace std;
 
