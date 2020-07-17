@@ -24,3 +24,7 @@
 - [x] [Lecture 20](https://github.com/graceFor/C-_Lecture_2020/tree/master/Lecture%2020) (Overriding)
 
 - [x] [Lecture 21](https://github.com/graceFor/C-_Lecture_2020/tree/master/Lecture%2021) (Multiple inheritance - 다중상속)
+
+- [x] [Lecture 22](https://github.com/graceFor/C-_Lecture_2020/tree/master/Lecture%2022) (Selective privacy - 내부클래스와 friend)
+
+- [x] [Lecture 23](https://github.com/graceFor/C-_Lecture_2020/tree/master/Lecture%2022) (GenericFunction_Class)
