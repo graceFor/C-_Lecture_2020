@@ -13,21 +13,17 @@ public:
 class Dog : public Animal
 {
 public:
-    virtual void monya() { cout << "멍멍이" << endl; }
+    void monya() { cout << "멍멍이" << endl; }
     void whatRU() { cout << "A Dog!" << endl; }
 };
 
 int main()
 {
-    Animal *ap;
+    Animal *ap = new Dog();
     Animal a2;
-    Dog *fido = new Dog();
-    Dog doggy;
-    ap = fido;
-    a2 = doggy;
 
-    fido->monya();
-    fido->whatRU();
+    Dog doggy;
+    a2 = doggy;
     ap->monya();
     ap->whatRU();
     a2.monya();
